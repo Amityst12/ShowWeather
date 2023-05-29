@@ -1,6 +1,5 @@
 import requests
 import os
-import sys
 import json
 
 def clear_terminal():
@@ -25,5 +24,4 @@ wind_speed = data["list"][0]["wind"]["speed"]
 
 
 clear_terminal
-print(format)
 print(f"City: {city} \nTemp: {temp} \nHumidity: {humidity}\nWind speed: {wind_speed} \n-{description}")
